@@ -96,7 +96,7 @@ def process_image_streamlit(image_np):
 
 # --- Streamlit UI ---
 st.set_page_config(layout="wide")
-st.title("🧠 K-Means Image Segmentation (Optimized)")
+st.title("🧠 K-Means Image Segmentation")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
